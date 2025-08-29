@@ -49,9 +49,9 @@ C21      220p           100P_CAP_0603                C0603    Capacitors SMD    
 C22      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
 C23      1u 16V         1U_CAP_0603                  C0603    Capacitors SMD         1
 C24      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
-D1       5.1V           DIODE-ZENER-MMSZ5232BS       SOD-323  SparkFun-DiscreteSemi  1
-D2       5.1V           DIODE-ZENER-MMSZ5232BS       SOD-323  SparkFun-DiscreteSemi  1
-IC1      LM358          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
+D1       5.1V           DIODE-ZENER-MMSZ5232BS       SOD-123  SparkFun-DiscreteSemi  1
+D2       5.1V           DIODE-ZENER-MMSZ5232BS       SOD-123  SparkFun-DiscreteSemi  1
+IC1      TL072          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
 IC2      4016D          4016D                        SO14     40xx                   1
 IC3      NE555DRG4      555_SOIC8                    SOIC8    ICs                    1
 IC4      74LVC1G06DBV   74LVC1G06DBV                 SOT23-5  74xx-little-us         1
@@ -60,7 +60,7 @@ IC6      4016D          4016D                        SO14     40xx              
 IC7      Turned Pins    SND Turned Pins              DIP16    ICs                    1
 IC8      74LVC1G06DBV   74LVC1G06DBV                 SOT23-5  74xx-little-us         1
 IC9      NE555DRG4      555_SOIC8                    SOIC8    Pins                   1
-IC10     LM358          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
+IC10     TL072          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
 Q1       MMBT3906       TRANS_PNP-PMBT3906|MMBT3906L SOT23-3  SparkFun-DiscreteSemi  1
 Q2       MMBT3904       TRANS_NPN-MMBT2222AL         SOT23-3  SparkFun-DiscreteSemi  1
 Q3       MMBT3906       TRANS_PNP-PMBT3906|MMBT3906L SOT23-3  SparkFun-DiscreteSemi  1
