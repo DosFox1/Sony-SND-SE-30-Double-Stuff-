@@ -2,15 +2,21 @@
 BETA - A replacement for the Sony SND IC (part number 343-0045-A), specifically designed for the SE/30.
 This design is a duplication of the previous Sony SND SMD version, but literally copied twice to fit two Sony SNDs onto the board without the DRC yelling at me.
 
-<img width="514" alt="Sony SND SE:30 Top" src="https://github.com/user-attachments/assets/c466cbce-d76b-4f35-9e58-d32500f8cccc">
-<img width="525" alt="Sony SND SE:30 Bottom" src="https://github.com/user-attachments/assets/8aff7db7-b2d6-45af-a6d3-7cd68eb18e43">
+<img width="721" height="603" alt="image" src="https://github.com/user-attachments/assets/0d459273-204f-4142-908c-e66461c794e4" />
+<img width="717" height="602" alt="image" src="https://github.com/user-attachments/assets/445fca35-122e-4e93-bd10-2416c299c860" />
+
 
 # So What Is It?
 This is quite literally the same design as before, with the same improvement of not needing the -12V rail. 
 However, due to the board constraints of the SE/30, two of my SMD boards will not fit - at least easily. 
 So this design just adds a second SND replacement so the DRC doesn't yell at me. 
 
-It's all common jellybean parts, so nothing hyper specific is needed. 
+It's all common jellybean parts, so nothing hyper specific is needed.
+
+
+**Please note that -12V will need to be tapped from somewhere on the board, otherwise the audio doesn't work.**
+
+**Also the 27R Pullup resistor at R11 on the logic board needs to be removed, otherwise POR doesn't work!**
 
 The original SMD Design is here:
 https://github.com/DosFox1/Sony-SND-SMT-Replacement
@@ -18,7 +24,7 @@ https://github.com/DosFox1/Sony-SND-SMT-Replacement
 And the very original THT design is here:
 https://github.com/DosFox1/Sony-SND-THT-Replacement
 
-**Please Note That This Is Completely Untested, Build At Your Own Risk**
+**Please Also Note That This Is Completely Untested, Build At Your Own Risk**
 
 # Bill Of Materials:
 
